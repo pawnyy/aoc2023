@@ -18,7 +18,7 @@ public class Answer {
     }
 
     public static Void part1PerLine(String line) {
-        ArrayList<Integer> nums = new ArrayList<>();
+        ArrayList<Integer> nums = new ArrayList<Integer>();
         for (char c : line.toCharArray()) {
             if (Character.isDigit(c)) {
                 nums.add(Character.getNumericValue(c));
